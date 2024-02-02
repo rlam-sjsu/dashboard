@@ -1,0 +1,20 @@
+.grid{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.item{
+    box-sizing: border-box;
+    width: 50%;
+    margin: 20px;
+}
+
+@media (max-width: 800px) {
+    .grid{
+        display: block;
+    }
+    .item{
+        width: 100%;
+    }
+  }
